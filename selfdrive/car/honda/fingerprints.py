@@ -222,6 +222,7 @@ FW_VERSIONS = {
       b'57114-TGH-L130\x00\x00',
       b'57114-TGK-T320\x00\x00',
       b'57114-TGL-G330\x00\x00',
+      b'57114-T6A-JA10\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-TBA-C020\x00\x00',
@@ -244,6 +245,7 @@ FW_VERSIONS = {
       b'39990-TGG,J510\x00\x00',
       b'39990-TGL,E130\x00\x00',
       b'39990-TGN,E120\x00\x00',
+      b'39990-T6A-H230\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-TBA-A060\x00\x00',
@@ -257,6 +259,7 @@ FW_VERSIONS = {
       b'77959-TGG-J320\x00\x00',
       b'77959-TGG-Z820\x00\x00',
       b'77959-TGH-J110\x00\x00',
+      b'77959-T6A-J220\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36802-TBA-A150\x00\x00',
@@ -271,6 +274,7 @@ FW_VERSIONS = {
       b'36802-TGH-A140\x00\x00',
       b'36802-TGK-Q120\x00\x00',
       b'36802-TGL-G040\x00\x00',
+      b'8S102-T6A-J040\x00\x00',
     ],
     (Ecu.fwdCamera, 0x18dab5f1, None): [
       b'36161-TBA-A130\x00\x00',
@@ -292,9 +296,11 @@ FW_VERSIONS = {
       b'38897-TBA-A020\x00\x00',
       b'38897-TBA-A110\x00\x00',
       b'38897-TGH-A010\x00\x00',
+      b'38897-T6A-J210\x00\x00',
     ],
     (Ecu.electricBrakeBooster, 0x18da2bf1, None): [
       b'39494-TGL-G030\x00\x00',
+      b'54008-TKN-H810\x00\x00',
     ],
   },
   CAR.HONDA_CIVIC_BOSCH_DIESEL: {
@@ -709,11 +715,13 @@ FW_VERSIONS = {
       b'57114-TJB-A030\x00\x00',
       b'57114-TJB-A040\x00\x00',
       b'57114-TJB-A120\x00\x00',
+      b'57114-T6A-JA10\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36802-TJB-A040\x00\x00',
       b'36802-TJB-A050\x00\x00',
       b'36802-TJB-A540\x00\x00',
+      b'8S102-T6A-J040\x00\x00',
     ],
     (Ecu.fwdCamera, 0x18dab5f1, None): [
       b'36161-TJB-A040\x00\x00',
@@ -738,24 +746,28 @@ FW_VERSIONS = {
       b'77959-TJB-A040\x00\x00',
       b'77959-TJB-A120\x00\x00',
       b'77959-TJB-A210\x00\x00',
+      b'77959-T6A-J220\x00\x00',
     ],
     (Ecu.electricBrakeBooster, 0x18da2bf1, None): [
       b'46114-TJB-A040\x00\x00',
       b'46114-TJB-A050\x00\x00',
       b'46114-TJB-A060\x00\x00',
       b'46114-TJB-A120\x00\x00',
+      b'54008-TKN-H810\x00\x00',
     ],
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TJB-A040\x00\x00',
       b'38897-TJB-A110\x00\x00',
       b'38897-TJB-A120\x00\x00',
       b'38897-TJB-A220\x00\x00',
+      b'38897-T6A-J210\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-TJB-A030\x00\x00',
       b'39990-TJB-A040\x00\x00',
       b'39990-TJB-A070\x00\x00',
       b'39990-TJB-A130\x00\x00',
+      b'39990-T6A-H230\x00\x00',
     ],
   },
   CAR.HONDA_RIDGELINE: {
