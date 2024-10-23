@@ -916,6 +916,7 @@ FW_VERSIONS = {
       b'39990-T24-T120\x00\x00',
       b'39990-T39-A130\x00\x00',
       b'39990-T43-J020\x00\x00',
+      b'39990-T6A-H230\x00\x00',
     ],
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-T20-A020\x00\x00',
@@ -924,6 +925,7 @@ FW_VERSIONS = {
       b'38897-T20-A510\x00\x00',
       b'38897-T21-A010\x00\x00',
       b'38897-T24-Z120\x00\x00',
+      b'38897-T6A-J210\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-T20-A970\x00\x00',
@@ -931,6 +933,7 @@ FW_VERSIONS = {
       b'77959-T20-M820\x00\x00',
       b'77959-T47-A940\x00\x00',
       b'77959-T47-A950\x00\x00',
+      b'77959-T6A-J220\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36161-T20-A060\x00\x00',
@@ -941,11 +944,19 @@ FW_VERSIONS = {
       b'36161-T47-A070\x00\x00',
       b'8S102-T20-AA10\x00\x00',
       b'8S102-T47-AA10\x00\x00',
+      b'8S102-T6A-J040\x00\x00',
     ],
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-T20-AB40\x00\x00',
       b'57114-T24-TB30\x00\x00',
       b'57114-T43-JB30\x00\x00',
+      b'57114-T6A-JA10\x00\x00',
+    ],
+    (Ecu.shiftByWire, 0x18DA0BF1, None): [
+      b'54008-TKN-H810\x00\x00',
+    ],
+    (Ecu.combinationMeter, 0x18DA60F1, None): [
+      b'78109-T6A-JC30\x00\x00',
     ],
     (Ecu.transmission, 0x18da1ef1, None): [
       b'28101-65D-A020\x00\x00',
